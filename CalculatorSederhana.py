@@ -1,4 +1,7 @@
-def tambah(a, b):
+#memisalkan variabel a dan b sebagai inputan nilai
+#lalu membuat operasi penjumalahan, pengurangan, perkalian, dan pembagian
+
+def tambah(a, b): 
     return a + b
 
 def kurang(a, b):
@@ -7,12 +10,13 @@ def kurang(a, b):
 def kali(a, b):
     return a * b
 
+# jika b bernilai nol maka akan menghasilkan dari else
 def bagi(a, b):
     if b != 0:
         return a / b
     else:
         return "Error: Pembagian oleh nol tidak diizinkan"
-
+#mebuat pilihan operator dan mengkalkulasi keempat operator
 while True:
     print("Pilih operasi:")
     print("1. Penjumlahan (+)")
